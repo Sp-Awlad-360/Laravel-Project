@@ -10,9 +10,26 @@
     <!-- if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with. -->
 
     <!-- Data type -->
-    01.String
-    02.Number
-    03.Bolean
+    <!-- 01.String -->
+    <!-- 02.Number -->
+    <!-- 03.Bolean -->
+    <!-- 04.Objects -->
 
+    <script>
+       var name='awlad';
+       var num=234;
+       document.write(typeof(name));
+       document.write(typeof(num));
+    </script>
+
+     
+
+     //first comment
+     /*
+       second comment
+       second comment
+       second comment
+       second comment
+     */
   </body>
 </html>
