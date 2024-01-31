@@ -1,1 +1,92 @@
-ss
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Understanding Javascript And JSON</title>
+</head>
+<body>
+    <h1>Program 01: How to create a Function</h1>
+    <script>
+        function start(){
+            document.write("I am from Start function <br>");
+        }
+        function process(){
+            document.write("I am from process function <br>");
+        }
+        function finish(){
+            document.write("I am from finish function");
+        }
+
+        start();
+        process();
+        finish();
+    </script>
+--------------------------------------------------
+
+    <h1>Program 02: How to use settimeout in a Function</h1>
+    <script>
+        function start(){
+            document.write("I am from Start function <br>");
+        }
+        function process(){
+            setTimeout(function(){
+                document.write("I am from process function <br>");
+            }, 1000);
+            
+        }
+        function finish(){
+            document.write("I am from finish function <br>");
+        }
+
+        start();
+        process();
+        finish();
+    </script>
+  --------------------------------------------------
+
+    <h1>Program 03: How to use collback in a Function</h1>
+    <script>
+        function start(){
+            console.log("I am from Start function <br>");
+        }
+        function process(collback){
+            setTimeout(function(){
+                console.log("I am from process function <br>");
+                collback();
+            }, 1000);
+            
+        }
+        function finish(){
+            console.log("I am from finish function <br>");
+        }
+
+        start();
+        process(function(){
+            finish();
+        });
+       
+    </script>
+--------------------------------------------------
+  
+    <h1>Program 04: How to use JSON</h1>
+    <script>
+        var myJson = {
+            name: "Awlad Hossain",
+            web: "www.awlad.com",
+            skills: ["HTML", "CSS", "JS"],
+            friends:[
+                {name:"Masud", web:"www.masud.com"},
+                {name:"Rakib", web:"www.rakib.com"},
+                {name:"Rahim", web:"www.rahim.com"}
+            ]
+        };
+        console.log(myJson);
+        console.log(myJson.name);
+        console.log(myJson.web);
+        console.log(myJson.friends[1].web);
+    </script>
+
+</body>
+</html>
