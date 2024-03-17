@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Of Html</title>
+    <style>
+        table{
+            width: 400px;
+            height: 200px;
+            border: 2px solid black;
+            border-collapse: collapse;
+            /* border-spacing: 25px;*/
+            /* If you need border spacing then you can comment in border collapse and cancel the comment of border spacing */
+        }
+        th,td{
+            border: 2px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <caption>STUDENTS DETAILS</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>GPA</th>
+                    <th colspan="2">Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Awlad</td>
+                    <td>2.02</td>
+                    <td>015241</td>
+                    <td>0192</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Niamat</td>
+                    <td>2.04</td>
+                    <td>01654852</td>
+                    <td>0185</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Masud</td>
+                    <td>2.05</td>
+                    <td>017241</td>
+                    <td rowspan="2">01544</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Shihab</td>
+                    <td>2.08</td>
+                    <td>018241</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
