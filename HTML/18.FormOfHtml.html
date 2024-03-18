@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Of HTML</title>
+</head>
+<body>
+    <div>
+        <h2>Registration Form</h2>
+        <form action="">
+            <div>
+                <label for="fullName">FullName : </label>
+                <input type="text" name="fullname" id="fullname" required>
+            </div><br>
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" readonly>
+            </div><br>
+            <div>
+                <label for="password">Password : </label>
+                <input type="password" name="password" id="password">
+            </div><br>
+            <div>
+                <label for="dob">Date Of Birth : </label>
+                <input type="date" name="dob" id="dob">
+            </div><br>
+            <div>
+                <label for="photo">Choose your photo : </label>
+                <input type="file" name="photo" id="photo">
+            </div><br>
+            <div>
+                <label for="gender">Gender : </label>
+                <input type="radio" name="gender" id="gender" value="male" checked>Male
+                <input type="radio" name="gender" id="gender" value="female">Female
+                <!-- If we dont use name attribute is same then we can accesss male and female both otherwise access one of them. -->
+            </div><br>
+            <div>
+                <label for="salary">Salary : </label>
+                <input type="number" name="salary" id="salary">
+            </div><br>
+            <div>
+                <label for="religion">Religion : </label>
+                <input type="checkbox" name="c1" id="muslim" value="muslim" checked>Islam
+                <input type="checkbox" name="c2" id="hindu" value="hindu">Hindu
+            </div><br>
+            <div>
+                <label for="department">Department : </label>
+                <select name="department" id="">
+                    <option value="cse">CSE</option>
+                    <option value="eee" selected>EEE</option>
+                    <option value="llb">LLB</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="message">Message : </label><br>
+                <textarea name="" id="" cols="50" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Register" disabled>
+                <input type="reset" value="Clear">
+            </div><br>
+            <div>
+                <label for="">Button : </label>
+                <button>Button1</button>
+            </div><br>
+            <div>
+                <label for="">Color : </label>
+                <input type="color">
+            </div><br>
+            <div>
+                <label for="">Range : </label>
+                <input type="range">
+            </div><br>
+            <div>
+                <label for="">Search : </label>
+                <input type="search">
+            </div><br>
+            <div>
+                <label for="">Hidden : </label>
+                <input type="hidden">
+                <!-- It does not show in webpage -->
+            </div><br>
+            <div>
+                <label for="">Image</label>
+                <input type="image">
+            </div><br>
+            <div>
+                <label for="">Month : </label>
+                <input type="month">
+            </div><br>
+            <div>
+                <label for="">Time : </label>
+                <input type="time">
+            </div><br>
+            <div>
+                <label for="">Url : </label>
+                <input type="url">
+            </div><br>
+            <div>
+                <label for="">Week : </label>
+                <input type="week">
+            </div><br>
+        </form>
+    </div>
+    
+</body>
+</html>
