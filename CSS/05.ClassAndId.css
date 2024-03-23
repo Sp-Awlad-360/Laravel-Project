@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class And ID</title>
+    <style>
+        .heading-style{
+            color:green;
+            font-size: 80px;
+        }
+        #para-style{
+            color: green;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 class="heading-style">I am from Bangladesh</h2>
+        <h3>I am from Singapore.</h3>
+        <p id="para-style">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quo, est reprehenderit accusamus consectetur reiciendis
+            voluptatibus earum, maxime cupiditate facere magni, fugiat nesciunt ullam autem dignissimos vel deserunt sit ratione?</p>
+    </div>
+</body>
+</html>
