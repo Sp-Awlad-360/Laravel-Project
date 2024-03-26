@@ -1,0 +1,35 @@
+1.Data insert use by DB in controller
+//    If we use DB for data insert
+//    public function getImageUrl($request)
+//    {
+//        $image        = $request->file('image');
+//        $imageName    = $image->getClientOriginalName();
+//        $directory    = 'upload/category-images/';
+//        $image->move($directory, $imageName);
+//        $imageUrl     = $directory.$imageName;
+//        return $imageUrl;
+//    }
+//
+//    public function store(Request $request)
+//    {
+//              DB::table('categories')->insert([
+//            'name'          => $request->name,
+//            'description'   => $request->description,
+//            'image'         => $this->getImageUrl($request),
+//            'status'        => $request->status
+//        ]);
+//        return back()->with('message','Category info Created Succesfully');
+//    }
+2.Here We can Data show in different way in laravel-
+public function manage()
+    {
+//        rules 1 for MVC
+//        return view('admin.category.manage', ['categories'=>Category::all()]);
+//        rules 2 for with
+//        return view('admin.category.manage')->with('categories', Category::all());
+//        rules 3 for compact
+//        $this->categories = Category::all();
+//        return view('admin.category.manage', compact('$this->categories'));
+//        rules 4 for DB
+//        return view('admin.category.manage', ['categories'=>DB::table('categories')->get()]);
+    }
