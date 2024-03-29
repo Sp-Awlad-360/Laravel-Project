@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Style</title>
+    <style>
+        .decoration{
+            text-decoration: overline;
+            text-decoration: underline;
+        }
+        .align1{
+            text-indent: 50px;
+        }
+        .align2{
+            text-shadow: 8px 7px gray; 
+            /* <!--x okkho r y okkho--> */
+        }
+        .align3{
+            text-transform: capitalize;
+            word-spacing: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 class="decoration">Bangladesh</h2>
+        <p class="align1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique sapiente, laboriosam quaerat nobis maxime quisquam? Ea culpa eligendi quas placeat, harum dolorem eos aliquid dolor distinctio ducimus consectetur dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique sapiente, laboriosam quaerat nobis maxime quisquam? Ea culpa eligendi quas placeat, harum dolorem eos aliquid dolor distinctio ducimus consectetur dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique sapiente, laboriosam quaerat nobis maxime quisquam? Ea culpa eligendi quas placeat, harum dolorem eos aliquid dolor distinctio ducimus consectetur dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique sapiente, laboriosam quaerat nobis maxime quisquam? Ea culpa eligendi quas placeat, harum dolorem eos aliquid dolor distinctio ducimus consectetur dignissimos.</p>
+    </div>
+    <div>
+        <h2 class="align2">Bangladesh2</h2>
+        <p class="align3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique sapiente, laboriosam quaerat nobis maxime quisquam? Ea culpa eligendi quas placeat, harum dolorem eos aliquid dolor distinctio ducimus consectetur dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique sapiente, laboriosam quaerat nobis maxime quisquam? Ea culpa eligendi quas placeat, harum dolorem eos aliquid dolor distinctio ducimus consectetur dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique sapiente, laboriosam quaerat nobis maxime quisquam? Ea culpa eligendi quas placeat, harum dolorem eos aliquid dolor distinctio ducimus consectetur dignissimos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet similique sapiente, laboriosam quaerat nobis maxime quisquam? Ea culpa eligendi quas placeat, harum dolorem eos aliquid dolor distinctio ducimus consectetur dignissimos.</p>
+    </div>
+</body>
+</html>
