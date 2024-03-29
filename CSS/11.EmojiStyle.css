@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Style</title>
+    <style>
+        .love{
+            color:orange;
+            font-size: 5rem;
+        }
+        .rose{
+            font-size: 8rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>I <span class="love">❤</span> Bangladesh</p>
+    </div>
+    <div>
+        <p>I love <span class="rose">🌹</span>.</p>
+    </div>
+</body>
+</html>
