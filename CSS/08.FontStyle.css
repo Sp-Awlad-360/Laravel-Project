@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Style</title>
+    <style>
+        .my-style{
+            font-family: arial;
+            /* font-family: 'Times New Roman', Times, serif; */
+            font-size: 110%;
+            font-style: italic;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p class="my-style">Font Style: Fronts.Google.Com. Then Click on + icon. Then copy css link and css code and pase in my project.</p>
+</body>
+</html>
