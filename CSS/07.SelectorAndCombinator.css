@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector And Combinator</title>
+    <style>
+        h1{
+            color: green;
+            text-align: center;
+        }
+        .style1{
+            background-color: green;
+        }
+        .style2{
+            text-align: center;
+        }
+        #style3{
+            text-align: center;
+        }
+        .style1 .style2 h2{
+            color: white;
+        }
+        .style1 #style3 h2{
+            color: red;
+        }
+        /* Combinator */
+        div p{
+            text-align: center;
+            background-color: rgb(107, 107, 100);
+        }
+        div > p{
+            color: white;
+        }
+        div + p{
+            text-align: center;
+            background-color: green;
+        }
+        /* Red div: It uses for all paragraph after div will be styled */
+        /* div ~ p{
+            background-color: red;
+            color: white;
+        } */
+
+    </style>
+</head>
+<body>
+    <h1>Selector</h1>
+    <div class="style1">
+        <div class="style2">
+            <h2>This is Selector After one Class.</h2>
+        </div>
+        <div id="style3">
+            <h2>This is Selector After one Class.</h2>
+        </div>
+    </div>
+    <h1>Combinator</h1>
+    <div>
+        <p>This is paragraph 1</p>
+        <p>This is paragraph 2</p>
+        <section>
+            <p>This is paragraph 3</p>
+        </section>
+    </div>
+    <p>This is paragraph 4</p>
+    <p>This is paragraph 5</p>
+</body>
+</html>
