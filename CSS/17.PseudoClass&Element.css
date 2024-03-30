@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class And Pseudo Element</title>
+    <style>
+        a{
+            color: green;
+        }
+        a.my-link:hover{
+            color: red;
+        }
+        input{
+            width:200px;
+            height: 30px;
+            font-size: 1rem;
+        }
+        input:hover{
+            background-color: rgb(206, 198, 198);
+        }
+        input:focus{
+            background-color: rgb(236, 113, 113);
+        }
+        p:hover{
+            color:brown;
+        }
+        /* p::first-letter{
+            color:green;
+            font-size: 3.5rem;
+        } */
+        /* p::first-line{
+            color:green;
+            font-size: 3.5rem;
+        } */
+        /* p::before{
+            content: '<';
+        }
+        p::after{
+            content: '>';
+        } */
+
+        /* Pseudo Element 2 */
+        /* Here we can use Odd, Even, Number 1,2,3 */
+        .demo p:nth-child(odd){
+            background-color: black;
+            color: white;
+        }
+        ::selection{
+            color: red;
+            background-color: rgb(5, 5, 95);
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Pseudo Class Hover(:)</h2>
+    <a href="" class="my-link">CSS Tutorial</a>
+    <br>
+    <a href="">Home Page</a>
+
+    <h2>Pseudo Class Focus(:)</h2>
+    <input type="text" placeholder="Enter Your Name">
+
+    <h2>Pseudo Element (::)</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae sunt debitis illo quo, veritatis inventore. Beatae tempore laborum ut non ipsum eos ipsam nostrum impedit officia repellat! Quisquam, id quae.Lorem ipsum, dolor sit 
+        amet consectetur adipisicing elit. Beatae sunt debitis illo quo, veritatis inventore. Beatae tempore laborum ut non ipsum eos ipsam nostrum impedit officia repellat! Quisquam, id quae.Lorem ipsum, dolor sit amet consectetur 
+        adipisicing elit. Beatae sunt debitis illo quo, veritatis inventore. Beatae tempore laborum ut non ipsum eos ipsam nostrum impedit officia repellat! Quisquam, id quae.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Beatae sunt debitis illo quo, veritatis inventore. Beatae tempore laborum ut non ipsum eos ipsam nostrum impedit officia repellat! Quisquam, id quae.</p>
+
+    <div class="demo">
+        <p>Bangladesh is a small country. But It has many problem for people. People Doesn't working.</p>
+        <p>Bangladesh is a small country. But It has many problem for people. People Doesn't working.</p>
+        <p>Bangladesh is a small country. But It has many problem for people. People Doesn't working.</p>
+        <p>Bangladesh is a small country. But It has many problem for people. People Doesn't working.</p>
+        <p>Bangladesh is a small country. But It has many problem for people. People Doesn't working.</p>
+    </div>
+</body>
+</html>
