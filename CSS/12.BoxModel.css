@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model CSS</title>
+    <style>
+        .margin1{
+            background-color: green;
+            width: 200px;
+            /* margin: 50px;  */
+            /* If you want this-> 50px will be margin for every side */
+            /* Margin:50px 20px;  */
+            /* If you want this-> 50px for top and bottom and 20px left and right  */
+            margin:50px 20px 50px 20px; 
+            /* It is used for Top, right, Bottom, Left. */
+        }
+        .padding1{
+            background-color: green;
+            width: 200px;
+            /* padding: 100px;  */
+            /* If you want this-> 50px will be padding for every side */
+            /* padding:50px 20px;  */
+            /* If you want this-> 50px for top and bottom and 20px for left and right  */
+            padding:50px 20px 10px 50px; 
+            /* It is used for Top, right, Bottom, Left. */
+        }
+        .border1{
+            width: 200px;
+            /* border: 5px dotted green; */
+            /* border-top: Top, Write, Bottom, Left; */
+            border-width: 10px;
+            border-color: green;
+            border-style: solid;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Margin</h2>
+    <div class="margin1">
+        <h1> Bangladesh </h1>
+    </div>
+    <h2>Padding</h2>
+    <div class="padding1">
+        <h2>Bangladesh</h2>
+    </div>
+    <h2>Border</h2>
+    <div class="border1">
+        <h2>Bangladesh</h2>
+    </div>
+</body>
+</html>
