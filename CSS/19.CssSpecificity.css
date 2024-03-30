@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        h2{
+            background-color: brown;
+        }
+        /* a=0 b=0 c=1  ===001 */
+        h2{
+            background-color: green;
+        }
+        /* a=0 b=0 c=1  ===001 */
+        .heading2{
+            background-color: grey;
+        }
+        /* a=0 b=1 c=0  ===010 */
+        h2.heading2{
+            background-color: grey;
+        }
+        /* a=0 b=1 c=1  ===011 */
+        #heading3{
+            background-color: blue;
+        }
+        /* a=1 b=0 c=0  ===100 */
+        /* Value of Inline CSS -> 1000 */
+    </style>
+</head>
+<body>
+    <h1>Specificity Calculator</h1>
+    <div>
+        <h3>a = number of id</h3>
+        <h3>b = number of class, Pseudo Class, Attributes</h3>
+        <h3>c = number of Elements, Pseudo Elements</h3>
+    </div>
+    <br>
+    <h1>W3.org/TR/selectors-3/#specifcity</h1>
+    <h2 class="heading2" id="heading3">Bangladesh is a small country.</h2>
+</body>
+</html>
