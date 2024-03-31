@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear & Radial Gradient</title>
+    <style>
+        .linear-gradient-style{
+            height: 300px;
+            width: 400px;
+            background-image: linear-gradient(to right,blue, red, green);
+            text-align: center;
+        }
+        .radial-gradient-style{
+            height: 400px;
+            width: 400px;
+            background-image: radial-gradient(circle, red, yellow, blue, green);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Linear Gradient</h1><hr>
+    <div class="linear-gradient-style">
+        Bangladesh
+    </div>
+    <h1>Radial Gradient</h1><hr>
+    <div class="radial-gradient-style">
+        Bangladesh
+    </div>
+</body>
+</html>
