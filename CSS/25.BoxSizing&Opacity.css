@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing And Border Box</title>
+    <style>
+         /* Box Sizing Part 1*/
+         .div1{
+            height: auto;
+            width: 50%;
+            background-color: green;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 5px solid gray;
+        }
+        .div2{
+            height: auto;
+            width: 50%;
+            background-color: rgb(0, 103, 163);
+        }
+        /* Box Sizing Part 2*/
+        .div3{
+            height: 300px;
+            width: 50%;
+            background-color: green;
+            float: left;
+            box-sizing: border-box;
+            padding: 5px;
+        }
+        .div4{
+            height: 300px;
+            width: 50%;
+            background-color: rgb(0, 103, 163);
+            float: left;
+        }
+        /* Opecity part */
+        img{
+            height: 300px;
+            width: 400px;
+            opacity: 0.5;
+        }
+        img:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Box Sizing Part 1-->
+    <h2>Box Sizing Part 1</h2><hr>
+    <div class="div1">
+        <p>The and friend uncouth ways condole virtues time, control of he ancient hall it loved to, these of but lineage they but girls uses, revel and but een times did ah one he. Bliss he light love disporting cell monastic sing but labyrinth. Riot he of mirth his grace sorrow scarce, holy yet would times for, his still fabled to flaunting light had charms finds spent, youth and mighty uses and time that are sullen paphian. Nor consecrate yet they was hill muse womans shell a. Fly a deeds deem bliss, from mine childe before soul deeds. But sad the the given loved knew love now, pomp friend true and and none dome chill but dote. Womans if pleasure heralds tis me thy did perchance aisle, then childe that whilome sadness any, reverie mirthful land mighty but along his strange, in though her flash moths his things congealed, for run lines like waste name for lowly a. Found the perchance left festal, near deigned and favour mood muse he not vast, harold or to in that paphian lineage riot day parasites. Finds disappointed almost minstrels none climes. Spent childe and monastic  had of was gild know. Misery grace along.</p>
+    </div>
+    <div class="div2">
+        <p>Herélnek teher azt motyogjatok te amit magától fejem s fájdalmam, elvetéljetek halak csecsemő bukjatok s amilyen vakogjatok míg, a kisfiúk csizmák le sírjátok ki és élő helyem ellökött. Pattanjon halál el énnekem a akadt körül az. Bikák csizmák kivül a ti fáj nagyon alázat. Hagyottan azt a a érte hogy a kell lel minden. Táj szeret tagadta a szerelemben hozzám, míg fáj alatt megtépve hozzám nem kincs. Alázat meg neki húzzatok ti elől párra csal. Ő akadt nagyon fáj hallgassátok. Szenvedi alá is elszenderül le terhetek hevülsz néma. Öl kitalálom kiket hogy a hogy s és mint az, ágya a nagyon fáj minden ha jár kitaszít és fájdalmas. Kénye ér vakogjatok ha kisfiúk mint teher a páros míg. A elől kellene s a. Dobál fájdalmam rólam öszetörjetek nagyon, kicifrázva herélnek jár muszáj hogy ha. Nő de nemcsak párra boldog míg a bátor. Tagadta mint neki meg alatt. Oly ellene nő a amilyen elvonta alatt te. Csal fájdalmas velem magára ugassátok, alatt és kitaszít mit csizmák égjen az hű. S a fájdalmam vadon kapjatok fehérül fáj odataszít menekülő, hozzám ti álom a érte jég olyat érte elszenderül. Bár odataszít a körül fájdalmas, mint nem ha elvonta belől száj nincsen vakogjatok. A.</p>
+    </div>
+
+    <!-- Box Sizing Part 2-->
+    <br><h2>Box Sizing Part 2</h2><hr>
+    <div class="div3">
+        <p>Sea sed stet stet magna dolores. Sit voluptua tempor erat vero consetetur, gubergren dolore stet nonumy rebum diam ut lorem rebum. Gubergren rebum stet duo consetetur lorem amet sadipscing sed ipsum. Sed sanctus rebum invidunt erat duo sit aliquyam nonumy. Dolor lorem sit vero sadipscing ut. Ea dolor ea ipsum takimata sea eos et sadipscing sadipscing, aliquyam sed sadipscing sed takimata, sea dolor sadipscing erat gubergren lorem, eos voluptua elitr diam at gubergren sadipscing, dolor ipsum tempor et sea, nonumy rebum labore lorem sea nonumy et nonumy et. Clita ut sit takimata sit invidunt at justo invidunt sea. Sit dolor ipsum vero et invidunt sanctus gubergren gubergren, lorem stet stet rebum diam voluptua eos erat, kasd sea no stet accusam duo lorem labore elitr diam, ut sadipscing no invidunt aliquyam ut erat est dolore. Est eirmod sed erat eirmod, magna tempor justo elitr ipsum labore est. Amet dolore diam kasd ut est ipsum sit sea tempor. Kasd elitr lorem diam accusam. At voluptua et nonumy voluptua eirmod elitr stet, lorem et tempor ea clita sit labore amet sit, erat sed justo tempor dolore justo amet accusam et, lorem ut dolore diam et, stet nonumy stet sed gubergren. Justo sed tempor.</p>
+    </div>
+    <div class="div4">
+        <p>Ni de rigardi por ni kion respondis, terpinton la mi revenis mi en iru, velo vidajxo signojn povis viando. Longaspace nin laborigis tuj min cxiuj reen. Ne ne turko hejmon pro sxanco tagon portis, estis subite jxuris manoj plu markolo. Nun dolcxe ne estis savi tiam, mi tiuj antaux tien sxipo vidis mi savi, diris savi vendi homojn tia post deziras, zuro rabajxon staras sciis estas, la lasis forkuru forkuris cxirkauxajxojn mia la se. Bone plie tagoj diris al nagxi ili mi al, kajuton liberigxi vi ne cxambron mi nian ensxipigos sklavoj. Lumo provizis bezonas ke malsupren, da vidis ne sia niaj aux. Da cxiujn kun ekiris krias ne posedajxojn ami pecegon. Sakon kion ridante tero estas kaj cxiuspecajn, tie-cxi kaj la gxin elporti nomo cxar povu laux. Mauxro pri sxipon nelonge li, kiam vin de veturis mi signojn mi iradis. Diris okazo mi ni objektojn ke gxis kaj almenaux. Kiujn mi helpi al kial sxipflanko kunpreni haveno li kaj, nu la al vidis sovagxaj fari. Supron tiam estis mi mi. Maro mi maltrankvila la se vojon cxar la vojon. Estis pafilo estas la marbordo levis estas ili teron. Montetoj havigis pafspaco vidis mian al riveretan supron, mi faris al.</p>
+    </div>
+    <div></div><br>
+
+    <!-- Opacity part-->
+    <hr><h2>Opacity part</h2><hr>
+    <img src="nature.jpg" alt="">
+
+    
+</body>
+</html>
