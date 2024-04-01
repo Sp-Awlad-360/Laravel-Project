@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverFlow And Toltip</title>
+    <style>
+        .overflow-style{
+            height: 250px;
+            width: 300px;
+            border: 2px solid green;
+            background-color: gray;
+            /* overflow: visible; It can show write of outside*/
+            /* overflow: hidden; It does not show write of outside*/
+            /* overflow: scroll; It can work properly */
+            overflow: auto; /* It can work properly if you need.*/
+        }
+        .tooltip-style{
+            position: relative;
+        }
+        .tooltip-style .tooltip-style-text{
+            visibility: hidden;
+            width: 150px;
+            border: 1px solid green;
+            padding: 5px;
+            background-color: indigo;
+            color: white;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            z-index: 1;
+        }
+        .tooltip-style:hover .tooltip-style-text{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body> 
+    <h2>Tooltip Make:</h2>
+    <div class="tooltip-style">
+        <a href="">CSS Tutorial  <span class="tooltip-style-text">Make By Anisul Islam</span></a>
+       
+    </div>
+    <p></p>
+    <p></p>
+    <h2>Over Flow Make:</h2>
+    <div class="overflow-style">
+        <p>Aliquyam dolore sed labore et voluptua erat, eirmod aliquyam sed sanctus gubergren lorem ut, et lorem lorem accusam stet. Dolor sea ea 
+            gubergren diam ipsum amet accusam consetetur ipsum, amet diam dolores lorem stet sit. Sit voluptua sanctus dolores sed sit sed ipsum 
+            takimata, dolores sed erat ipsum dolore est eirmod ipsum eos, et ut at tempor duo et et stet kasd. Et voluptua eos clita ea duo ea elitr
+            et no. Labore et et voluptua et sed erat duo. Sea nonumy at sed ipsum takimata stet at et gubergren, justo stet accusam duo dolore amet
+            dolore consetetur kasd. Amet eos at labore justo aliquyam lorem labore et. Rebum vero eirmod at et vero amet, magna dolore vero vero 
+            consetetur et et ipsum, sit voluptua sanctus takimata diam diam et erat, justo duo magna ipsum tempor rebum clita ipsum et eos.</p>
+    </div>
+    
+</body>
+</html>
