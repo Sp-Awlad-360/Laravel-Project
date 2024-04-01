@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z index property</title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+        }
+        .div1{
+            background-color: red;
+            position: absolute;
+            z-index: 1;
+        }
+        .div2{
+            background-color: green;
+            position: absolute;
+            left: 150px;
+            top: 150px;
+            z-index: -2;
+        }
+        /* variable part */
+        :root{
+            --primary-color:green;
+            --secondary-color:red;
+        }
+        .div3{
+            /* background: green; */
+            /* When browser doesn't support variable we use this property */
+            background: var(--primary-color);
+            height: 250px;
+            width: 250px;
+        }
+        .div4{
+            /* background: red; */
+            /* When browser doesn't support variable we use this property */
+            background: var(--secondary-color, black);
+            /* If secondary color doesn't work then black color is will work */
+            height: 250px;
+            width: 250px;
+        }
+        /* Variable Responsive part */
+        @media screen and (max-width:600px){
+            :root{
+            --primary-color:black;
+            --secondary-color:blue;
+        }
+        }
+    </style>
+</head>
+<body>
+    <!-- z index part -->
+    <!-- <h2>Z index</h2><hr>
+    <div class="div1">
+
+    </div>
+    <div class="div2">
+
+    </div> -->
+    <!-- variable part -->
+    <h2>Variable Make:</h2><hr>
+    <div class="div3">
+
+    </div>
+    <div class="div4">
+
+    </div>
+    
+</body>
+</html>
