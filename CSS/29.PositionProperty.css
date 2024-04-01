@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .fixed-menu{
+            border: 3px solid green;
+            padding: 5px;
+            position: fixed;
+             /*  When we use fixed Position it will be fixed and work with -> Top, Bottom, Left, Right */
+            top: 0px;
+            left: 0px;
+        }
+        .div1{
+            border: 3px solid green;
+            padding: 5px;
+            position: static;
+            /* Static Position is normal->Here Top Bottom Left right dosen't work */
+            top:200px;
+        }
+        .div2{
+            border: 3px solid rgb(221, 14, 14);
+            padding: 5px;
+            position: relative;
+            /*  When we use relative Position it will be work with -> Top, Bottom, Left, Right */
+            left:20px;
+        }
+        .div3{
+            border: 3px solid blue;
+            padding: 5px;
+            height: 300px;
+            position: relative;
+        }
+        .div4{
+            border: 3px solid blue;
+            padding: 5px;
+            position: absolute;
+            left: 100px;
+            top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-menu">
+        <a href="">Home</a>
+    </div>
+    <p></p>
+    <div class="div1">
+        <p><span>Static Position</span>:- Sogiacere facitore pieno con discenda cospetto donne forse gli 
+            oppinione, avvedimento novellare in non da della, esperienza primo alla alla del nel come né impetrata prestasse, beato nostri 
+            la mentre tutte piú con fuor manifestamente né, avvien sogiacere cosa degli e. Tal in nel della maravigliose tutte discenda
+            che pregato si infiniti oportune sí oportune. Iscacciato di nostra piú in e dico. Come alla parte.</p>
+    </div>
+    <p></p>
+    <div class="div2">
+        <p><span>Relative Position</span>:- Di e manifestamente di potra priegano piaceri che e quella del. Sogiacere facitore pieno con discenda cospetto donne forse gli 
+            oppinione, avvedimento novellare in non da della, esperienza primo alla alla del nel come né impetrata prestasse, beato nostri 
+            la mentre tutte piú con fuor manifestamente né, avvien sogiacere cosa degli e. Tal in nel della maravigliose tutte discenda
+            che pregato si infiniti oportune sí oportune. Iscacciato di nostra piú in e dico. Come alla parte.</p>
+    </div>
+    <p></p>
+    <div class="div3">
+        <p><span>Relative Position</span>:- Di e manifestamente di potra priegano piaceri che e quella del. Sogiacere facitore pieno con discenda cospetto donne forse gli 
+            oppinione, avvedimento novellare in non da della, esperienza primo alla alla del nel come né impetrata prestasse, beato nostri 
+            la mentre tutte piú con fuor manifestamente né, avvien sogiacere cosa degli e. Tal in nel della maravigliose tutte discenda
+            che pregato si infiniti oportune sí oportune. Iscacciato di nostra piú in e dico. Come alla parte.</p>
+
+            <div class="div4">
+                <p><span>Absolute Position</span>:- Hello, Bangladesh is a small country.</p>
+            </div>
+    </div>
+    <div>
+        <p>Apart heart longdeserted him many there strength will, whilome few girls his known for mirth with aisle him, childe begun light shameless bacchanals friends lurked
+             could that take. Would near are and to are, his upon birth his talethis, whilome was below wight of was. Feere known vile the yet passion eros. That would lone 
+             harold it, in for was strange loved felt aught. And sea he from feels given peace loved glee, prose them deemed mirth woe awake shamed, grace or high not breast 
+             had partings was. Unto congealed a by and and who mood wrong, paphian known men if power sing. Few mammon none counsel before like yet, but from delphis but 
+             bacchanals had know felt in in, the from talethis in flash sick from mighty. Than eremites and flatterers had yet aye he and to. Had heart nor friends drowsy 
+             but he seraphs alone. For there weary for hall thou. Massy a her cared sister and yes seraphs. Men another parasites ways kiss mother deem whom go, ear or kiss 
+             day near say would, fellow he of could florid he plain. Name of chaste them his delight are mine. Other hellas ever perchance scape. Made aught and from or save 
+             or the present though, a his awake each knew say. Found harold ways suits known but was love chill to. Deemed heart mine deigned and aisle venerable if relief. 
+             At things of had childe, long this monks he whence. The mirthful vulgar deeds waste known in vast feels, most given more kiss nor her the, the they he pilgrimage 
+             break and, lineage vast the nor finds. In it before that if sought that say nor. Heralds ah be the ways feeble of them thee. Will whilome tear yet would he paphian 
+             hour would native, upon waste drugged care time of tis or known maidens. Ive grief sullen a childe childe. Oft whom to gild hall to his mammon with calm. Of honeyed 
+             start for are. Maidens albions monks was and charms save he. One times tis sister he childe he, oh all in long alone his chaste might spoiled, he to did his and. 
+             Left he done chill was not unto pleasure. Lands to and fabled sought long. Wins glare his venerable these were lines of mirth true, seemed lineage another had say 
+             heartless along know once, this or had ways uses deeds pollution few and he. Blazon there to ee below, go might once nor then made alone though be of, he my his in 
+             rhyme deemed, found ere minstrels cared his dwelt childe, it and if such high losel favour childe through. Nor stalked what disporting blast bacchanals shun to. 
+             Apart of light unto near parting mothernot of of, his scorching yes deemed happy, below pride nor heal calm shades himnot, or where once wins not but are go. Himnot 
+             with nor childe parasites he yet will a. Mote a he deigned say yet near he. To sacred care coffined they isle and, congealed loved.</p>
+    </div>
+</body>
+</html>
