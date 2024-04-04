@@ -10,6 +10,7 @@
        document.write("<h1>Function of String</h1><br><br>");
        
        //var text = prompt("Enter your text : ");
+       //It will be use when we need data input.
        var text = "Bangladesh";
        document.write("Number Of Characters "+text.length);
        document.write("<br>");
