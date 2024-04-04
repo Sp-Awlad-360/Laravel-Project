@@ -38,7 +38,7 @@
        
        
        document.write("<br>Step Of toFixed: <br>");
-       //Uses of tofixed:
+       //Uses of tofixed:It is used for how many digit do you want after doshomik.
         var num1 = 3.56789;
         document.write(num1.toFixed());
         document.write("<br>");
@@ -48,7 +48,7 @@
       
         
         document.write("<br>Step Of toPrecision: <br>");
-       //Uses of tofixed:
+       //Uses of tofixed:It is used for how many digit do you want first to last.
         var num1 = 3.56789;
         document.write(num1.toPrecision(1));
         document.write("<br>");
