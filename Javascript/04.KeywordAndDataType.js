@@ -16,11 +16,13 @@
     <!-- 04.Objects -->
 
     <script>
-       var name='awlad';
-       var num=234;
-       document.write(typeof(name));
-       document.write(typeof(num));
-    </script>
+        var name='awlad';
+        var num=234;
+        var bln=true;
+        document.write(typeof(name));
+        document.write(typeof(num));
+        document.write(typeof(bln));
+     </script>
 
      
 
