@@ -16,14 +16,14 @@
     </p>
 
     <script>
-       var first_name, second_name; 
-       first_name='Awlad Hossain';
-       document.write(first_name);
-       
-       second_name='Najmul Islam';
-       document.write(second_name);
-
-    </script>
+        var first_name, second_name; 
+        first_name='Awlad Hossain';
+        document.write(first_name + "<br>");
+        
+        second_name='Najmul Islam';
+        document.write(second_name);
+ 
+     </script>
   </body>
 </html>
 
