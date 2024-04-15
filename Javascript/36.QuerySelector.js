@@ -6,6 +6,7 @@
   <body>
     <!---Query Selector Starts Here--->
     <!---Query Selector can work of getElementByID, getElementsByClassName, and TagName--->
+    <!--- querySelectorAll is work same of getElementsByClassName --->
     <div>
       <h2 id="pid">This is a paragraph 1 </h2>
     </div>
