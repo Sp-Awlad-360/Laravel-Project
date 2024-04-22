@@ -17,27 +17,26 @@
             --->
         <!---Find Html Elements and change css stylej ends here --->
 
+        <!---Create a Html Elements strats here --->
+          <!---
+                <div id="my-div" style="background-color:green; color:white">
+                    <h1>Hello</h1>
+                    <h1>Good Bye</h1>
+                </div>
+                <script>
+                   var heading1 = document.getElementsByTagName("h1")[0];
+                   heading1.innerHTML="Hello Everyone";
+                   
+                   var heading3 = document.createElement('h1');
+                   var text = document.createTextNode("This is heading 3");
+                   heading3.appendChild(text);
+                   
+                   var myDiv = document.getElementById("my-div");
+                   myDiv.appendChild(heading3);
+                </script>
+          --->
+      <!---Create a Html Elements ends here --->
 
-
-
-      <!---Create a Html Elements--->
-        <div id="my-div" style="background-color:green">
-            <h1>Heading 1</h1>
-            <h1>Heading 2</h1>
-        </div>
-        <script>
-           var myStyle = document.getElementsByTagName("h1")[0];
-           myStyle.innerHTML="Everyone";
-           
-           var heading3 = document.createElement('h1');
-           var text = document.createTextNode("Hello Jonogon");
-           heading3.appendChild(text);
-           
-           var myDiv = document.getElementById("my-div");
-           myDiv.appendChild(heading3);
-           
-           var heading2 = document.getElementsByTagName('')
-        </script>
       
   </body>
 </html>
