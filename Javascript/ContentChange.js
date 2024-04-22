@@ -37,6 +37,19 @@
           --->
       <!---Create a Html Elements ends here --->
 
-      
+      <!---Remove a Html Elements Starts here --->
+          <!---
+              <div id="my-div" style="background-color:brown; color:white">
+                  <h1>Hello</h1>
+                  <h1>Good Bye</h1>
+              </div>
+              <script>
+                 var myDiv = document.getElementById("my-div");
+                 var heading2 = document.getElementsByTagName("h1")[1];
+                 myDiv.removeChild(heading2);
+              </script>
+          --->
+      <!---Remove a Html Elements ends here --->
+            
   </body>
 </html>
