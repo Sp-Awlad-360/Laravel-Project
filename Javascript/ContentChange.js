@@ -20,20 +20,6 @@
 
 
 
-
-
-            
-      <!---Find Html Elements--->
-        <!---
-          <a id="paraId" href="#">This is a link</a>
-          <script>
-             var myStyle = document.getElementById("paraId");
-             myStyle.innerHTML="This is Awlad Hossain";
-             myStyle.style.color = "red";
-             myStyle.style.textDecoration = "none";
-             myStyle.href="https://studywithanis.com/";
-          </script>
-        --->
       <!---Create a Html Elements--->
         <div id="my-div" style="background-color:green">
             <h1>Heading 1</h1>
