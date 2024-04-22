@@ -4,6 +4,25 @@
     <title>Find Create Add Remove Html Elements</title>
   </head>
   <body>
+      <!---Find Html Elements and change css style starts here --->
+            <!---
+              <a id="paraId" href="#">This is a link</a>
+              <script>
+                 var myStyle = document.getElementById("paraId");
+                 myStyle.innerHTML="This is Awlad Hossain";
+                 myStyle.style.color = "red";
+                 myStyle.style.textDecoration = "none";
+                 myStyle.href="https://studywithanis.com/";
+              </script>
+            --->
+        <!---Find Html Elements and change css stylej ends here --->
+
+
+
+
+
+
+            
       <!---Find Html Elements--->
         <!---
           <a id="paraId" href="#">This is a link</a>
