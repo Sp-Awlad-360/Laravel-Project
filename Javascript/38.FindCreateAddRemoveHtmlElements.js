@@ -30,6 +30,7 @@
                    var heading3 = document.createElement('h1');
                    var text = document.createTextNode("This is heading 3");
                    heading3.appendChild(text);
+                    <!--- If we want add a text first then we use insertBefore(Before,after) --->
                    
                    var myDiv = document.getElementById("my-div");
                    myDiv.appendChild(heading3);
