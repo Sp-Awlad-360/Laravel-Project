@@ -28,5 +28,37 @@
               </script>
            --->
       <!---Downwards Traversing Ends Here --->
+      <!---Upwards Traversing Strarts Here (Parents Elements)--->
+                <!---
+                    <ol class="student-list">
+                         <li class="student-a">Awlad</li>
+                         <li class="student-b">Niamat</li>
+                         <li class="student-c">Shihab</li>
+                    </ol>
+                    <script>
+                          var studentA = document.querySelector("li");
+                          var studentList = studentA.parentElement;
+                          studentList.style.backgroundColor="green";
+                    </script>
+                 --->
+          <!---Upwards Traversing Strarts Here (Parents Elements)--->
+              
+          <!---Sideways Traversing Strarts Here (Parents Elements)--->
+              <!---
+                  <ol class="student-list">
+                       <li class="student-a">Awlad</li>
+                       <li class="student-b">Niamat</li>
+                       <li class="student-c">Shihab</li>
+                  </ol>
+                  <script>
+                        var studentA = document.querySelector("li").innerHTML="Awlad Friend";
+                        var studentB = studentA.nextElementSibling;
+                        var studentC = studentB.nextElementSibling;
+                        
+                        var studentC = document.querySelectorAll("li")[2];
+                        var studentB = studentA.previousElementSibling;
+                  </script>
+              --->
+          <!---Sideways Traversing Strarts Here (Parents Elements)--->
   </body>
 </html>
